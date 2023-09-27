@@ -165,6 +165,7 @@
                                                             data-target="#collapseOne" aria-expanded="true"
                                                             aria-controls="collapseOne">
                                                             Tin tức liên quan...
+                                                            <span class="badge badge-primary badge-pill">5</span>
                                                         </button>
                                                     </h5>
                                                 </div>
@@ -269,6 +270,7 @@
                                                             data-target="#collapseOne" aria-expanded="true"
                                                             aria-controls="collapseOne">
                                                             Tin tức liên quan...
+                                                            <span class="badge badge-primary badge-pill">5</span>
                                                         </button>
                                                     </h5>
                                                 </div>
@@ -380,6 +382,7 @@
                                                             data-target="#collapseOne" aria-expanded="true"
                                                             aria-controls="collapseOne">
                                                             Tin tức liên quan...
+                                                            <span class="badge badge-primary badge-pill">5</span>
                                                         </button>
                                                     </h5>
                                                 </div>
@@ -504,7 +507,6 @@
                 <!--Grid column-->
                 <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
                     <h5 class="text-uppercase mb-4 text-lowercase">Giới thiệu trường</h5>
-
                     <p>
                         Trường THPT Trần Phú tọa lạc trên đường Lê Thánh Tôn. Trường thoáng mát, sân rộng. Trường có đội
                         ngũ giáo viên giỏi và luôn tận tâm với học sinh.
@@ -540,7 +542,6 @@
                 <!--Grid column-->
                 <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
                     <h5 class="text-uppercase mb-4">Giờ hoạt động</h5>
-
                     <table class="table text-center text-white">
                         <tbody class="font-weight-normal">
                             <tr>
@@ -605,19 +606,12 @@
         })
 
     function updateClock() {
-        // var now = new Date();
-        // var hours = now.getHours();
-        // var minutes = now.getMinutes();
-        // var seconds = now.getSeconds();
-        // var day = now.getDate();
-        // var month = now.getMonth() + 1;
-        // var year = now.getFullYear();
 
         var now = new Date();
         var daysOfWeek = ["Chủ Nhật", "Thứ Hai", "Thứ Ba", "Thứ Tư", "Thứ Năm", "Thứ Sáu", "Thứ Bảy"];
         var dayOfWeek = daysOfWeek[now.getDay()];
         var day = now.getDate();
-        var month = now.getMonth() + 1; // Tháng bắt đầu từ 0
+        var month = now.getMonth() + 1;
         var year = now.getFullYear();
         var hours = now.getHours();
         var minutes = now.getMinutes();
