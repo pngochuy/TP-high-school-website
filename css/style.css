@@ -76,3 +76,21 @@
   color: #1e6abd;
   font-size: 30px;
 }
+#accordion {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .img-icon {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #accordion {
+    display: block;
+  }
+  #list-news {
+    display: none;
+  }
+}

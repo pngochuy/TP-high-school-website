@@ -107,19 +107,19 @@
                     <div class="row">
                         <div class="col-md-4">
                             <a href="#">
-                                <img class="img-fluid" src="assest/document.png" alt="">
+                                <img class="img-icon img-fluid img-thumbnail" src="assest/document.png" alt="">
                                 <h6>Văn bản pháp quy</h6>
                             </a>
                         </div>
                         <div class="col-md-4">
                             <a href="#">
-                                <img class="img-fluid" src="assest/hand-painted.png" alt="">
+                                <img class="img-icon img-fluid img-thumbnail" src="assest/hand-painted.png" alt="">
                                 <h6>Thời khóa biểu</h6>
                             </a>
                         </div>
                         <div class="col-md-4">
                             <a href="#">
-                                <img class="img-fluid" src="assest/calendar-time.png" alt="">
+                                <img class="img-icon img-fluid img-thumbnail" src="assest/calendar-time.png" alt="">
                                 <h6>Lịch làm việc</h6>
                             </a>
                         </div>
@@ -154,10 +154,18 @@
                                                     src="https://tranphudn.edu.vn/files/news/20230414112025_z4263632292527_90d26669e9857b5cd7d4758289bf7872.jpg"
                                                     alt="">
                                             </div>
-                                            <div class="col-md-8"><a href="#" class="text-left">THPT TRẦN PHÚ TẠI KỲ THI
+                                            <div class="col-md-8">
+                                                <!-- <a href="#" class="text-left">THPT TRẦN PHÚ TẠI KỲ THI
                                                     OLYMPIC TRUYỀN
                                                     THỐNG 30/4 LẦN
                                                     THỨ XXVII NĂM 2023</a>
+                                                <a href="#" class="badge badge-danger">New</a> -->
+                                                <!-- Button trigger modal -->
+                                                <a href="#" class="text-left" data-toggle="modal"
+                                                    data-target="#exampleModalLong">
+                                                    THPT TRẦN PHÚ TẠI KỲ THI OLYMPIC TRUYỀN THỐNG 30/4 LẦN THỨ XXVII NĂM
+                                                    2023
+                                                </a>
                                                 <a href="#" class="badge badge-danger">New</a>
                                                 <p class="text-left">Cập nhật: <b>14-04-2023</b></p>
                                             </div>
@@ -176,7 +184,57 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-4">
-                                        <div class="list-group ">
+                                        <div id="accordion">
+                                            <div class="card">
+                                                <div class="card-header" id="headingOne">
+                                                    <h5 class="mb-0">
+                                                        <button class="btn btn-link" data-toggle="collapse"
+                                                            data-target="#collapseOne" aria-expanded="true"
+                                                            aria-controls="collapseOne">
+                                                            Tin tức liên quan...
+                                                        </button>
+                                                    </h5>
+                                                </div>
+
+                                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                                    data-parent="#accordion">
+                                                    <div class="list-group ">
+                                                        <a href="#"
+                                                            class="list-group-item list-group-item-action list-group-item-primary mb-2 item-link"><i
+                                                                class="fa fa-arrow-circle-right"></i> <b>Lãnh
+                                                                đạo Thành phố và Sở Giáo dục đi thăm, chúc Tết Nguyên
+                                                                Đán tại trường
+                                                                Trần Phú</b><br /> <span>05-02-2023</span></a>
+                                                        <a href="#"
+                                                            class="list-group-item list-group-item-action list-group-item-primary mb-2 item-link"><i
+                                                                class="fa fa-arrow-circle-right"></i> <b>KẾ HOẠCH Tổ
+                                                                chức "Ngày hội
+                                                                Văn hóa Dân gian" năm học 2022-2023</b><br />
+                                                            <span>10-01-2023</span></a>
+                                                        <a href="#"
+                                                            class="list-group-item list-group-item-action list-group-item-primary mb-2 item-link"><i
+                                                                class="fa fa-arrow-circle-right"></i> <b>TRUYỀN THÔNG VÀ
+                                                                TÍCH HỢP
+                                                                WEBSITE "BẢO VỆ TRẺ EM, CHĂM SÓC SỨC KHỎE TÂM THẦN VÀ
+                                                                TÂM LÍ XÃ
+                                                                HỘI"</b><br /> <span>16-12-2022</span></a>
+                                                        <a href="#"
+                                                            class="list-group-item list-group-item-action list-group-item-primary mb-2 item-link"><i
+                                                                class="fa fa-arrow-circle-right"></i> <b>GIẢI THỂ THAO
+                                                                HỌC SINH NĂM
+                                                                HỌC 2022–2023</b><br /> <span>02-11-2022</span></a>
+                                                        <a href="#"
+                                                            class="list-group-item list-group-item-action list-group-item-primary mb-2 item-link"><i
+                                                                class="fa fa-arrow-circle-right"></i> <b>HỘI NGHỊ VIÊN
+                                                                CHỨC, NGƯỜI
+                                                                LAO ĐỘNG - NĂM HỌC 2022-2023</b><br />
+                                                            <span>22-10-2022</span></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div id="list-news" class="list-group ">
                                             <a href="#"
                                                 class="list-group-item list-group-item-action list-group-item-primary mb-2 item-link"><i
                                                     class="fa fa-arrow-circle-right"></i> <b>Lãnh
@@ -209,7 +267,7 @@
                             <h4 class="card-title">TIN TỨC SỞ GIÁO DỤC</h4>
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-md-8">
+                                    <div class="col-lg-8">
                                         <a href="#" class="text-left">V/v hướng dẫn chuyển đổi
                                             môn học lựa chọn, cụm chuyên đề học tập và chuyển trường cấp trung
                                             học phổ thông<span href="#" class="badge badge-danger">New</span></a>
@@ -229,8 +287,58 @@
 
 
                                     </div>
-                                    <div class="col-md-4">
-                                        <div class="list-group ">
+                                    <div class="col-lg-4">
+                                        <div id="accordion">
+                                            <div class="card">
+                                                <div class="card-header" id="headingOne">
+                                                    <h5 class="mb-0">
+                                                        <button class="btn btn-link" data-toggle="collapse"
+                                                            data-target="#collapseOne" aria-expanded="true"
+                                                            aria-controls="collapseOne">
+                                                            Tin tức liên quan...
+                                                        </button>
+                                                    </h5>
+                                                </div>
+
+                                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                                    data-parent="#accordion">
+                                                    <div class="list-group ">
+                                                        <a href="#"
+                                                            class="list-group-item list-group-item-action list-group-item-primary mb-2 item-link"><i
+                                                                class="fa fa-arrow-circle-right"></i> <b>Lãnh
+                                                                đạo Thành phố và Sở Giáo dục đi thăm, chúc Tết Nguyên
+                                                                Đán tại trường
+                                                                Trần Phú</b><br /> <span>05-02-2023</span></a>
+                                                        <a href="#"
+                                                            class="list-group-item list-group-item-action list-group-item-primary mb-2 item-link"><i
+                                                                class="fa fa-arrow-circle-right"></i> <b>KẾ HOẠCH Tổ
+                                                                chức "Ngày hội
+                                                                Văn hóa Dân gian" năm học 2022-2023</b><br />
+                                                            <span>10-01-2023</span></a>
+                                                        <a href="#"
+                                                            class="list-group-item list-group-item-action list-group-item-primary mb-2 item-link"><i
+                                                                class="fa fa-arrow-circle-right"></i> <b>TRUYỀN THÔNG VÀ
+                                                                TÍCH HỢP
+                                                                WEBSITE "BẢO VỆ TRẺ EM, CHĂM SÓC SỨC KHỎE TÂM THẦN VÀ
+                                                                TÂM LÍ XÃ
+                                                                HỘI"</b><br /> <span>16-12-2022</span></a>
+                                                        <a href="#"
+                                                            class="list-group-item list-group-item-action list-group-item-primary mb-2 item-link"><i
+                                                                class="fa fa-arrow-circle-right"></i> <b>GIẢI THỂ THAO
+                                                                HỌC SINH NĂM
+                                                                HỌC 2022–2023</b><br /> <span>02-11-2022</span></a>
+                                                        <a href="#"
+                                                            class="list-group-item list-group-item-action list-group-item-primary mb-2 item-link"><i
+                                                                class="fa fa-arrow-circle-right"></i> <b>HỘI NGHỊ VIÊN
+                                                                CHỨC, NGƯỜI
+                                                                LAO ĐỘNG - NĂM HỌC 2022-2023</b><br />
+                                                            <span>22-10-2022</span></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div id="list-news" class="list-group ">
                                             <a href="#"
                                                 class="list-group-item list-group-item-action list-group-item-primary mb-2 item-link"><i
                                                     class="fa fa-arrow-circle-right"></i> <b>Lãnh
@@ -254,9 +362,6 @@
                                                 class="list-group-item list-group-item-action list-group-item-primary mb-2 item-link"><i
                                                     class="fa fa-arrow-circle-right"></i> <b>HỘI NGHỊ VIÊN CHỨC, NGƯỜI
                                                     LAO ĐỘNG - NĂM HỌC 2022-2023</b><br /> <span>22-10-2022</span></a>
-
-
-
                                         </div>
                                     </div>
                                 </div>
@@ -267,7 +372,7 @@
                             <h4 class="card-title">HOẠT ĐỘNG ĐOÀN TRƯỜNG</h4>
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-md-8">
+                                    <div class="col-lg-8">
                                         <div class="row">
                                             <div class="img-container col-md-4">
                                                 <img class="img-fluid img-thumbnail "
@@ -293,8 +398,58 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
-                                        <div class="list-group ">
+                                    <div class="col-lg-4">
+                                        <div id="accordion">
+                                            <div class="card">
+                                                <div class="card-header" id="headingOne">
+                                                    <h5 class="mb-0">
+                                                        <button class="btn btn-link" data-toggle="collapse"
+                                                            data-target="#collapseOne" aria-expanded="true"
+                                                            aria-controls="collapseOne">
+                                                            Tin tức liên quan...
+                                                        </button>
+                                                    </h5>
+                                                </div>
+
+                                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                                    data-parent="#accordion">
+                                                    <div class="list-group ">
+                                                        <a href="#"
+                                                            class="list-group-item list-group-item-action list-group-item-primary mb-2 item-link"><i
+                                                                class="fa fa-arrow-circle-right"></i> <b>Lãnh
+                                                                đạo Thành phố và Sở Giáo dục đi thăm, chúc Tết Nguyên
+                                                                Đán tại trường
+                                                                Trần Phú</b><br /> <span>05-02-2023</span></a>
+                                                        <a href="#"
+                                                            class="list-group-item list-group-item-action list-group-item-primary mb-2 item-link"><i
+                                                                class="fa fa-arrow-circle-right"></i> <b>KẾ HOẠCH Tổ
+                                                                chức "Ngày hội
+                                                                Văn hóa Dân gian" năm học 2022-2023</b><br />
+                                                            <span>10-01-2023</span></a>
+                                                        <a href="#"
+                                                            class="list-group-item list-group-item-action list-group-item-primary mb-2 item-link"><i
+                                                                class="fa fa-arrow-circle-right"></i> <b>TRUYỀN THÔNG VÀ
+                                                                TÍCH HỢP
+                                                                WEBSITE "BẢO VỆ TRẺ EM, CHĂM SÓC SỨC KHỎE TÂM THẦN VÀ
+                                                                TÂM LÍ XÃ
+                                                                HỘI"</b><br /> <span>16-12-2022</span></a>
+                                                        <a href="#"
+                                                            class="list-group-item list-group-item-action list-group-item-primary mb-2 item-link"><i
+                                                                class="fa fa-arrow-circle-right"></i> <b>GIẢI THỂ THAO
+                                                                HỌC SINH NĂM
+                                                                HỌC 2022–2023</b><br /> <span>02-11-2022</span></a>
+                                                        <a href="#"
+                                                            class="list-group-item list-group-item-action list-group-item-primary mb-2 item-link"><i
+                                                                class="fa fa-arrow-circle-right"></i> <b>HỘI NGHỊ VIÊN
+                                                                CHỨC, NGƯỜI
+                                                                LAO ĐỘNG - NĂM HỌC 2022-2023</b><br />
+                                                            <span>22-10-2022</span></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div id="list-news" class="list-group ">
                                             <a href="#"
                                                 class="list-group-item list-group-item-action list-group-item-primary mb-2 item-link"><i
                                                     class="fa fa-arrow-circle-right"></i> <b>Lãnh
@@ -331,6 +486,42 @@
 
     </div>
 
+    <!-- <a href="#" data-toggle="modal" data-target="#exampleModalLong">
+        THPT TRẦN PHÚ TẠI KỲ THI OLYMPIC TRUYỀN THỐNG 30/4 LẦN THỨ XXVII NĂM 2023
+    </a> -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Một số hình ảnh của Lễ bế mạc và khen thưởng:
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img class="img-fluid img-thumbnail img-responsive"
+                        src="https://tranphudn.edu.vn/files/news/20230414112025_z4263632292527_90d26669e9857b5cd7d4758289bf7872.jpg"
+                        alt="">
+                    <img class="img-fluid img-thumbnail img-responsive"
+                        src="https://tranphudn.edu.vn/files/news/20230414112025_z4263632292527_90d26669e9857b5cd7d4758289bf7872.jpg"
+                        alt="">
+                    <img class="img-fluid img-thumbnail img-responsive"
+                        src="https://tranphudn.edu.vn/files/news/20230414112025_z4263632292527_90d26669e9857b5cd7d4758289bf7872.jpg"
+                        alt="">
+                    <img class="img-fluid img-thumbnail img-responsive"
+                        src="https://tranphudn.edu.vn/files/news/20230414112025_z4263632292527_90d26669e9857b5cd7d4758289bf7872.jpg"
+                        alt="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="text-white text-center text-lg-start mt-3" style="background-color: #34ccfe;">
         <!-- Grid container -->
